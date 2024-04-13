@@ -13,7 +13,7 @@ Execution: The run_threads() function is invoked for each number of threads rang
 
 Results: The results are presented in tabular format using tabulate(). The number of threads is plotted against the corresponding time taken using matplotlib.pyplot.plot().
 
-We observe that the minimum time is taken when the the number of threads are 4.
+We observe that the minimum time is taken when the the number of threads are 1.
 
 ![image](https://github.com/svea-chawla/Assignment-Multi-Threading/assets/111569685/ad8a1abb-f0b8-4ad3-b358-11e04f5d1abe)
 
