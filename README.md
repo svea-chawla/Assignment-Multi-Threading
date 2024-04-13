@@ -1,8 +1,8 @@
 # Assignment-Multi-Threading
-OBJECTIVE:
+Objective:
 The goal is to conduct matrix multiplication on 100 matrices sized 1000 X 1000 using various thread counts and visualize the time taken and CPU usage.
 
-METHODOLOGY:
+Methodology:
 Matrix Multiplication: The multiply() function performs matrix multiplication on matrices A and B using np.dot(), storing the result in a designated index of the result array.
 
 Thread Utilization: The run_threads() function is implemented to execute matrix multiplication using a variable number of threads (1-10). It initializes a list called threads to store thread objects. It iterates over the list of matrices, creating a new thread for each matrix multiplication operation using the threading.Thread() constructor. Each thread is started using the start() method. After creating all threads, it waits for all threads to complete using the join() method and returns the time taken for the multiplication operations.
