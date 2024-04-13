@@ -12,6 +12,9 @@ Matrix Generation: A constant matrix A of size 1000x1000 is generated using nump
 Execution: The run_threads() function is invoked for each number of threads ranging from 1 to 10, recording the time taken for each operation. The results are stored in the results_table list along with the corresponding number of threads.
 
 Results: The results are presented in tabular format using tabulate(). The number of threads is plotted against the corresponding time taken using matplotlib.pyplot.plot().
+
+We observe that the minimum time is taken when the the number of threads are 4.
+
 ![image](https://github.com/svea-chawla/Assignment-Multi-Threading/assets/111569685/ad8a1abb-f0b8-4ad3-b358-11e04f5d1abe)
 
 ![image](https://github.com/svea-chawla/Assignment-Multi-Threading/assets/111569685/1db4b554-ef2d-4ccc-a300-1c38aa05271c)
